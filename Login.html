@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вхід</title>
+    <link rel="shortcut icon" href="img/logo.svg">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.aexp-static.com/cdaas/one/statics/@americanexpress/dls/6.23.1/package/dist/6.23.1/styles/dls.min.css"/>
+    <link rel="stylesheet" href="/etc.clientlibs/homepage/clientlibs/core-homepage/styles.min.b80632b81a35021e4bb28caa7e93739a.css" type="text/css">
+    <link rel="stylesheet" href="/etc.clientlibs/homepage/clientlibs/noscript.min.d7e573e2431f6aca187a3df6f2a4baae.css" type="text/css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+
+    <style>
+      
+    </style>
+</head>
+<body>
+<header class="header_my">
+        <div class="custom-header">
+            <div>
+                <div class="actions">
+                    <a class="NOTthis" href="index.html"><img src="img/logo.svg" alt="Логотип" width="45" height="45"></a>
+                    <a href="card.html">Карти</a>
+                    <a href="account.html">Мій акаунт</a>
+                    <a href="travel.html">Подорожі</a>
+                    <a href="bonus.html">Винагороди та переваги</a>
+                </div>
+            </div>
+            <div>
+                <div class="actions">
+                    <a href="#" class="buttom buttom_anim buttom_search NOTthis"><img src="img/search.png" alt="Логотип" class="search_open"></a>
+                    <a href="help.html" class="buttom buttom_anim NOTthis">Допомога</a>
+                    <a class="NOTthis" href="Login.html"><div class="buttom" id="exit">Вхід</div></a>
+                </div>
+            </div>
+        </div> 
+      </header>
+      <section class="section_background">
+        <!-- ось цей шматок коду я взяв з самого сайту American Express щоб бистріше зробити тому деякі класи во не знайдете в css но без них воно змінить вигляд -->
+        <div class="Login_error"></div>
+        <div class="login_box">
+          <h1 class="heading-4 text-align-center pad-t pad-lr dls-white-bg dls-color-text">Увійдіть в обліковий запис</h1>
+          <div class="">
+            <div>
+              <div>
+                <div class="eliloMain card-block">
+                  <form>
+                    <div class="margin_top_20px">
+                      <label>Ідентифікатор користувача</label>
+                      <div>
+                        <input type="text" id="eliloUserID" class="form-control" value="">
+                      </div>
+                    </div>
+                    <div class="margin_top_20px">
+                      <label>Пароль</label>
+                      <div class="">
+                        <input type="password" id="eliloPassword" class="form-control" value="">
+                      </div>
+                    </div>
+                    <div class="margin_top_20px">
+                      <div class="select form-control" data-rendered="true" data-value="Cards and Banking"><select id="eliloSelect" name="eliloSelect" class="form-control"><option selected="" label="Картки та банкінг" value="account" url="https://global.americanexpress.com/dashboard">Картки та банкінг</option><option label="Нагороди за членство" value="rewards" url="https://rewards.americanexpress.com/myca/loyalty/us/rewards/redirect/secureredirect?request_type=authreg_mr&amp;target=https://www.membershiprewards.com/myca/Process.aspx?omnlogin=us_homepage_mr">Нагороди за членство</option><option label="Обліковий запис продавця" value="merchant" url="https://sso.americanexpress.com/SPS/auth/push?ssolang=en_US&amp;ssobrand=CONCORD&amp;TARGET=https%3A%2F%2Fwww209.americanexpress.com%2Fmerchant%2Fservices%2Fen_US%2Fsecure%2Fhome%3Fomnlogin%3Dus_homepage_oms" sso="V2" brandname="CONCORD">Обліковий запис продавця</option><option label="American Express @ робота" value="work" url="https://www.americanexpress.com/en-us/at-work/">American Express @ робота</option></select>
+                      </div>
+                    </div>
+                    <div" class="checkbox eliloRemember">
+                      <input type="checkbox" value="" id="rememberMe">
+                      <label for="rememberMe">Запам'ятайте мене</label>
+                    </div>
+                    <div class="Box">
+                      <a href="">
+                          <button type="submit" class="Login2"><div class="Login2_text">Увійти</div></button>
+                      </a>
+                  </div>
+                  </form>
+                    <ul class="list-links margin-2-t text-align-left">
+                      <li><a href="https://www.americanexpress.com/en-us/account/password/recover">Забули ідентифікатор користувача або пароль?</a></li>
+                      <li><a href="https://online.americanexpress.com/myca/gce/us/action/home?request_type=un_Register&amp;Face=en_US" target="" title="Create New Online Account">Створити новий обліковий запис онлайн</a></li>
+                      <li><a href="https://online.americanexpress.com/myca/gce/us/action/home?request_type=un_Activation&amp;Face=en_US" target="" title="Confirm Card Received">Підтвердити отримання картки</a></li>
+                      <li><a href="https://www.americanexpress.com/us/content/fraud-protection-center/home.html?linknav=us-homepage-securitycenter" target="" title="Visit Our Security Center">Відвідайте наш Центр безпеки</a></li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="Login_error"></div>
+      </section>
+      <footer>
+        <div class="footer_240">
+          <div>
+            <img src="img/dls-logo-line.svg" alt="">
+          </div>
+          
+          <div class="image_container_footer">
+            <a href="https://www.facebook.com/AmericanExpressUS"><img src="img/facebook.png" alt="Зображення 1"></a>
+            <a href="https://twitter.com/askamex"><img src="img/twiter.png" alt="Зображення 2"></a>
+            <a href="https://www.instagram.com/AmericanExpress/"><img src="img/instagram.png" alt="Зображення 3"></a>
+            <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQG6WzlbiZ-EnwAAAYhnq9sA5fjOja2_0cPuH0EhfjEumMQCtwI45BxCCeCk79k-S7-CwYWdayuHtYzjY9U4acJITK2dD-KO3WbgS0Tj94DnfvkzusqkJgNLXaJq0N2g3Tgebkw=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Famerican-express"><img src="img/In.png" alt="Зображення 4"></a>
+            <a href="https://www.youtube.com/user/AmericanExpress"><img src="img/youtube.png" alt="Зображення 5"></a>
+          </div>
+          <div class="footer_other">
+            <a href="https://www.americanexpress.com/us/legal-disclosures/website-rules-and-regulations.html?inav=footer_Terms_of_Use">Умови використання </a> <span>|</span> <a href="https://www.americanexpress.com/us/privacy-center/?inav=footer_privacy_statement">Центр конфіденційності</a> <span>|</span> <a href="https://www.americanexpress.com/us/company/privacy-center/online-privacy-disclosures/?inav=us_footer_adChoices#what-are-your-choices">AdChoices</a> <span>|</span> <a href="https://www.americanexpress.com/us/security-center/?inav=footer_fraud_protection_center">Центр безпеки</a> <span>|</span> <a href="https://www.americanexpress.com/en-us/company/legal/cardmember-agreements/?inav=footer_card_agreements">Угоди щодо карток</a> <span>|</span> <a href="https://www.americanexpress.com/us/help-support/service-members-civil-relief/?inav=footer_servicemember_benefits">Переваги для членів служби</a> <span>|</span> <a href="https://www.americanexpress.com/en-us/sitemap/personal.html/?inav=footer_sitemap">Карта сайту</a>
+          </div>
+          <div class="footer_end">
+            Усі користувачі наших онлайн-сервісів підпадають під дію нашої Заяви про конфіденційність і погоджуються дотримуватися Умов надання послуг. Будь ласка перегляньте.
+          </div>
+          <div class="footer_end">
+            © 2023 American Express. All rights reserved
+          </div>
+        </div>
+      </footer>
+      
+
+</body>
+</html>
